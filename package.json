@@ -61,7 +61,7 @@
     "enzyme": "^2.2.0",
     "eslint": "1.9.0",
     "eslint-plugin-getsentry": "1.0.0",
-    "eslint-plugin-react": "3.11.2",
+    "eslint-plugin-react": "5.0.1",
     "gettext-parser": "1.1.2",
     "js-cookie": "2.0.4",
     "karma": "0.13.19",
