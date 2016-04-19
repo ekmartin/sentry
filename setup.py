@@ -79,7 +79,7 @@ tests_require = [
     'datadog',
     'pytest-cov>=2.2.1,<2.3.0',
     'pytest-timeout>=1.0.0,<1.1.0',
-    'pytest-xdist>=1.11.0,<1.12.0',
+    'pytest-xdist>=1.14,<1.15',
     'python-coveralls',
     'responses',
 ]
