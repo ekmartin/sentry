@@ -111,7 +111,7 @@ install_requires = [
     'kombu==3.0.35',
     'lxml>=3.4.1',
     'mock>=2.0,<3.0',
-    'petname>=1.7,<1.8',
+    'petname>=1.12,<1.13',
     'progressbar>=2.2,<2.4',
     'psycopg2>=2.6.0,<2.7.0',
     'pytest>=2.6.4,<2.7.0',
