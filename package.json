@@ -22,7 +22,7 @@
     "marked": "0.3.5",
     "moment": "2.10.6",
     "moment-timezone": "0.5.3",
-    "node-libs-browser": "0.5.3",
+    "node-libs-browser": "1.0.0",
     "query-string": "2.4.2",
     "raven-js": "git+https://github.com/getsentry/raven-js.git#d1050ce0ce682acb839bb8e70d5fed6c3c2141a1",
     "react": "0.14.7",
