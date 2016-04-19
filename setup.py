@@ -110,7 +110,7 @@ install_requires = [
     'ipaddr>=2.1.11,<2.2.0',
     'kombu==3.0.35',
     'lxml>=3.4.1',
-    'mock>=0.8.0,<1.1',
+    'mock>=2.0,<3.0',
     'petname>=1.7,<1.8',
     'progressbar>=2.2,<2.4',
     'psycopg2>=2.6.0,<2.7.0',
