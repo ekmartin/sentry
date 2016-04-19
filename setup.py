@@ -95,7 +95,7 @@ install_requires = [
     'django-crispy-forms>=1.6.0,<1.7.0',
     'django-debug-toolbar>=1.4,<1.5',
     'django-paging>=0.2.5,<0.3.0',
-    'django-jsonfield>=0.9.13,<0.9.14',
+    'django-jsonfield==0.9.19',
     'django-picklefield>=0.3.0,<0.4.0',
     'django-recaptcha>=1.0.4,<1.1.0',
     'django-social-auth>=0.7.28,<0.8.0',
