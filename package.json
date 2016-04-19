@@ -27,7 +27,7 @@
     "raven-js": "git+https://github.com/getsentry/raven-js.git#d1050ce0ce682acb839bb8e70d5fed6c3c2141a1",
     "react": "0.14.7",
     "react-addons-css-transition-group": "0.14.7",
-    "react-addons-pure-render-mixin": "0.14.7",
+    "react-addons-pure-render-mixin": "15.0.1",
     "react-addons-test-utils": "0.14.7",
     "react-addons-update": "0.14.7",
     "react-bootstrap": "0.28.3",
