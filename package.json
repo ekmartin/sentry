@@ -16,7 +16,7 @@
     "history": "1.13.0",
     "jed": "^1.1.0",
     "jquery": "2.1.4",
-    "json-loader": "0.5.3",
+    "json-loader": "0.5.4",
     "less": "2.5.3",
     "less-loader": "2.2.1",
     "marked": "0.3.5",
