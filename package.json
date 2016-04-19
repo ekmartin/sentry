@@ -63,7 +63,7 @@
     "eslint-plugin-getsentry": "1.0.0",
     "eslint-plugin-react": "5.0.1",
     "gettext-parser": "1.1.2",
-    "js-cookie": "2.0.4",
+    "js-cookie": "2.1.1",
     "karma": "0.13.19",
     "karma-chai": "0.1.0",
     "karma-mocha": "0.1.10",
