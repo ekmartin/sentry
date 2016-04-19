@@ -16,6 +16,7 @@ from itertools import chain
 from django.db import connection, transaction, IntegrityError
 
 from sentry.runner.decorators import configuration
+from sentry.utils.db import is_sqlite
 
 
 SHUTDOWN = object()
@@ -62,7 +63,13 @@ def load_bundle(q, uuid, data, sdk_info, trim_symbols, demangle):
         object=obj
     )[0]
 
-    step = 4000
+    # SQlite has a low parameter limit of 999.  Since we need three
+    # parameters to insert a row, we can only do 333 items in a batch
+    if is_sqlite():
+        step = 333
+    else:
+        step = 4000
+
     symbols = data['symbols']
     for idx in xrange(0, len(symbols) + step, step):
         end_idx = min(idx + step, len(symbols))
