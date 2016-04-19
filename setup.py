@@ -105,7 +105,7 @@ install_requires = [
     'email-reply-parser>=0.3.0,<0.4.0',
     'enum34>=0.9.18,<1.2.0',
     'exam>=0.5.1',
-    'hiredis>=0.1.0,<0.2.0',
+    'hiredis>=0.2.0,<0.3.0',
     'honcho>=0.7.0,<0.8.0',
     'ipaddr>=2.1.11,<2.2.0',
     'kombu==3.0.30',
