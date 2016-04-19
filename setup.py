@@ -89,7 +89,7 @@ install_requires = [
     'BeautifulSoup>=3.2.1,<3.3.0',
     'celery==3.1.23',
     'click>=5.0,<7.0',
-    'cssutils>=0.9.9,<0.10.0',
+    'cssutils>=1.0.1,<1.1.0',
     'Django>=1.6.0,<1.7',
     'django-bitfield>=1.7.0,<1.8.0',
     'django-crispy-forms>=1.4.0,<1.5.0',
